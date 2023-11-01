@@ -4,9 +4,8 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+  AiFillFacebook,
+  } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -63,7 +62,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Majaharulsoft"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,19 +70,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/md-majaharul-islam-rana-b60217261/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -92,14 +82,14 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100013027208154"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillFacebook />
+               </a>
               </li>
             </ul>
           </Col>
