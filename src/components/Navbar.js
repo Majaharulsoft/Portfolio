@@ -34,18 +34,20 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.logo href="/" className="d-flex">
           
            <h1 <span className="purple"> MIR </span> </h1>
            
       
-        </Navbar.Brand>
+        </Navbar.logo>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
         >
+          <span></span>
+          <span></span>
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
