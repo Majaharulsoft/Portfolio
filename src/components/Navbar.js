@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 
 import {
@@ -36,10 +35,9 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-           <h1 style={{ fontSize: "2.6em" }}>
-               <span className="purple"> MIR </span> 
-           </h1>
+          
+           <h1 <span className="purple"> MIR </span> </h1>
+           
       
         </Navbar.Brand>
         <Navbar.Toggle
@@ -48,8 +46,6 @@ function NavBar() {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span></span>
-          <span></span>
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
