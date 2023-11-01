@@ -38,8 +38,6 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
            <h1 <span className="purple"> MIR </span> </h1>
-           
-      
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
