@@ -84,10 +84,10 @@ function Home2() {
               <li className="social-icons">
               <a
                 href="https://www.facebook.com/profile.php?id=100013027208154"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+               >
                 <AiFillFacebook />
                </a>
               </li>
