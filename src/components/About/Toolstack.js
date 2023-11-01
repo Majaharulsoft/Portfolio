@@ -4,7 +4,6 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiNetlify,
-  SiVercel,
   SiWindowsxp,
 } from "react-icons/si";
 
@@ -23,10 +22,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-    </Row>
+      </Row>
   );
 }
      
