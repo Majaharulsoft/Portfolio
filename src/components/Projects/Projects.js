@@ -36,7 +36,7 @@ function Projects() {
               imgPath={E_commerce}
               isBlog={false}
               title="E_commerce"
-              description="This is a frontend ecommerce project,this ecommerce project is built  with html, css and javascript. "
+              description="This is a frontend ecommerce project, this ecommerce project is built  with html, css and javascript. "
               ghLink="https://github.com/Majaharulsoft/E-commerce"
               demoLink="https://majaharulsoft.github.io/E-commerce/"
             />
