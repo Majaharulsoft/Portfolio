@@ -24,7 +24,8 @@ function Projects() {
               imgPath={Portfolio}
               isBlog={false}
               title="Portfolio"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="My personal portfolio which features some of my github projects as well as my
+                            resume and technical skills.This project was built wtih React.js, Node.js,Express.js."
               ghLink="https://github.com/Majaharulsoft/Portfolio"
               demoLink="https://majaharulportfolio.netlify.app"
             />
