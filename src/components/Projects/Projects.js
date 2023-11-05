@@ -36,7 +36,7 @@ function Projects() {
               imgPath={E_commerce}
               isBlog={false}
               title="E_commerce"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="This is a frontend ecommerce project, this ecommerce project is built  with html, css and javascript. "
               ghLink="https://github.com/Majaharulsoft/E-commerce"
               demoLink="https://majaharulsoft.github.io/E-commerce/"
             />
@@ -47,7 +47,7 @@ function Projects() {
               imgPath={CV_Project}
               isBlog={false}
               title="CV_Project"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="This is a dummy CV Project, this CV Project is built with html and css."
               ghLink="https://github.com/Majaharulsoft/CV-Project"
               demoLink="https://majaharulsoft.github.io/CV-Project/"              
             />
@@ -58,7 +58,8 @@ function Projects() {
               imgPath={currency_converter}
               isBlog={false}
               title="currency_converter"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="My Currency Converter is the simplest currency converter. This Currency Converter
+                             is built with react.js , node.js.This currency converter is under development."
               ghLink="https://github.com/Majaharulsoft/Currency-converter"
               demoLink="https://currency-convertersite.netlify.app/"
             />
