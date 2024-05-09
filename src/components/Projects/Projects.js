@@ -3,9 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import currency_converter from "../../Assets/Projects/currency-converter.png";
-import CV_Project from "../../Assets/Projects/CV-Project.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
-import E_commerce from "../../Assets/Projects/E-commerce.png";
+import E_commerce from "../../Assets/Projects/Techshop.PNG";
 
 function Projects() {
   return (
@@ -35,24 +34,15 @@ function Projects() {
             <ProjectCard
               imgPath={E_commerce}
               isBlog={false}
-              title="E_commerce"
-              description="This is a frontend ecommerce project, this ecommerce project is built  with html, css and javascript. "
-              ghLink="https://github.com/Majaharulsoft/E-commerce"
-              demoLink="https://majaharulsoft.github.io/E-commerce/"
+              title="Tech Shop"
+              description="A complete ecommerce web portal with Gmail login feature.
+               Manage profile, product details, product add to wish-list, product add to cart, create invoice, etc.
+               Technology used: HTML, CSS, Bootstrap, React.js,Node.js, Express.js, MongoDB"
+              ghLink="https://github.com/Majaharulsoft/Tech-Shop"
+              demoLink="https://best-tech-shop.vercel.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={CV_Project}
-              isBlog={false}
-              title="CV_Project"
-              description="This is a dummy CV Project, this CV Project is built with html and css."
-              ghLink="https://github.com/Majaharulsoft/CV-Project"
-              demoLink="https://majaharulsoft.github.io/CV-Project/"              
-            />
-          </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={currency_converter}
