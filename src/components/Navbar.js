@@ -35,7 +35,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-           <h2 className="fs-3  " style={{ color: '#c770f0',fontWeight:'bold' }}>MIR</h2>
+           <h2 className="fs-3 ms-4  " style={{ color: '#c770f0',fontWeight:'bold' }}>MIR</h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
