@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript,React and MongoDB. </b>
+                <b className="purple"> Javascript, React, Express js and MongoDB. </b>
               </i>
               <br />
               <br />
