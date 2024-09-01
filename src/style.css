@@ -426,6 +426,7 @@ button:focus {
   color: white !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
+  margin-left:17px;
 }
 .footer-icons {
   margin-top: 0.5em !important;
