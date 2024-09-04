@@ -13,8 +13,8 @@ function AboutCard() {
             <br />I completed my graduation in Computer Science and Engineering from Northern University Bangladesh this year.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
           </p>
+          <p>Apart from coding, some other activities that I love to do!</p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
