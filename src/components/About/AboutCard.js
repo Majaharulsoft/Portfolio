@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> khilkhet, Dhaka, Bangladesh.</span>
             <br />I completed my graduation in Computer Science and Engineering from Northern University Bangladesh this year.
           </p>
-          <p {{ textAlign: "justify"}}>Apart from coding, some other activities that I love to do!</p>
+          <p style={{ textAlign: "justify"}}> Apart from coding, some other activities that I love to do!</p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
