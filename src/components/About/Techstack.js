@@ -12,6 +12,7 @@ import {
   SiExpress,
   SiTailwindcss,
   SiBootstrap,
+  SiNextdotjs,
 } from "react-icons/si";
 import {TbBrandRedux } from "react-icons/tb";
 
@@ -48,6 +49,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs/>
       </Col>
       
      </Row>
