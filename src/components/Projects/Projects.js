@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import currency_converter from "../../Assets/Projects/currency-converter.png";
-import Portfolio from "../../Assets/Projects/Portfolio.png";
+import Graffiti from "../../Assets/Projects/Graffiti.png";
+import Rana_shop from "../../Assets/Projects/Rana_shop.png";
 import E_commerce from "../../Assets/Projects/Techshop.PNG";
 
 function Projects() {
@@ -20,13 +20,26 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Portfolio}
+              imgPath={Rana_shop}
               isBlog={false}
-              title="Portfolio"
-              description="My personal portfolio which features some of my github projects as well as my
-                            resume and technical skills.This project was built wtih React.js, Node.js,Express.js."
-              ghLink="https://github.com/Majaharulsoft/Portfolio"
-              demoLink="https://majaharulportfolio.netlify.app"
+              title="Rana-Shop"
+              description="Full Stack E-Commerce Responsive MERN App with Auth, Search, Filter, Upload Product,
+                payment gateway and order.This project was built wtih HTML, CSS, Tailwind CSS, React.js, Node.js,
+                Express.js, MongoDB. "
+              ghLink="https://github.com/Majaharulsoft/Full-Stack-Ecommerce"
+              demoLink="https://fullstack-mern-ecommerce.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Graffiti}
+              isBlog={false}
+              title="Gen-z Graffiti"
+              description="On this website GEN Z will upload their graffiti, the graffiti will be saved and rewards will be
+                available. This website is built with HTML, CSS, Tailwind CSS, Next.js, MySQL"
+              ghLink="https://github.com/Majaharulsoft/gen-z-graffiti-client"
+              demoLink="https://www.artlit.com.bd/en"
             />
           </Col>
 
@@ -43,17 +56,7 @@ function Projects() {
             />
           </Col>
           
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={currency_converter}
-              isBlog={false}
-              title="currency_converter"
-              description="My Currency Converter is the simplest currency converter. This Currency Converter
-                             is built with react.js , node.js.This currency converter is under development."
-              ghLink="https://github.com/Majaharulsoft/Currency-converter"
-              demoLink="https://currency-convertersite.netlify.app/"
-            />
-          </Col>
+          
 
         </Row>
       </Container>
